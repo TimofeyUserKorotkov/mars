@@ -77,6 +77,15 @@ def promotion_image():
                     <div class="alert alert-success" role="alert">
                       <br><h2>{}</h2>
                     </div>
+                    <div class="alert alert-dark" role="alert">
+                      <br><h2>{}</h2>
+                    </div>
+                    <div class="alert alert-warning" role="alert">
+                      <br><h2>{}</h2>
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                      <br><h2>{}</h2>
+                    </div>
                   </body>
                 </html>""".format(url_style, url_pic, *br_list)
 
